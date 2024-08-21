@@ -1,0 +1,86 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[co]
+
+# Django-specific files
+*.log
+local_settings.py
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+
+# Environment variables
+.env
+
+# Pyenv
+.python-version
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# mypy
+.mypy_cache/
+
+# Cython debug symbols
+cython_debug/
+
+# Coverage reports
+.coverage
+.coverage.*
+*.cover
+*.py,cover
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+notebooks/
+
+# pipenv
+Pipfile.lock
+
+# pipenv, poetry
+*.env
+
+# virtualenv
+venv/
+ENV/
+env/
+.venv/
+venv.bak/
+
+# Sphinx documentation
+docs/_build/
+build/
+tmp/
+*.tmp
+*.bak
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Admin tools
+*.sqlite3
+
+# Heroku
+*.heroku
+
+# Django migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# Unnecessary files
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+*.sublime-project
